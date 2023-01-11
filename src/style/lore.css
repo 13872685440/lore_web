@@ -1,0 +1,432 @@
+html {
+  font-size: 50px;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+body {
+  font-size: .28rem;
+  color: #000;
+  min-width: 2.4rem;
+  max-width: 9rem;
+  margin: 0 auto !important;
+  height: 100%;
+  background: #fff;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, audio, canvas, details, figcaption, figure, footer, header, hgroup, mark, menu, meter, nav,
+output, progress, section, summary, time, video, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-family: "microsoft yahei", tahoma, arial;
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  color: #3e3a3a;
+}
+
+i {
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+*:focus, input {
+  outline: none;
+  background-color: transparent;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"], input[type="password"], input[type="button"], input[type="number"], input[type="submit"], input[type="file"], span {
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+  -webkit-appearance: none;
+}
+
+button, textarea, input[type="text"], div {
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  border-radius: 0;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.lf {
+  float: left;
+}
+
+.rg {
+  float: right;
+}
+
+
+
+/* 档案搜索开始 */
+.home {
+  /* background: #f5f5f5 url(../image/by/png33.png) no-repeat center top/100% auto; */
+  /* background: #fff url(~@/assets/images/home_bg_02.png) no-repeat center top/100% auto; */
+}
+
+.home .da_input {
+  width: 95%;
+  margin: -0.4rem auto 0.3rem auto;
+  /* margin: .3rem auto; */
+}
+
+.home .da_input .ant-space {
+  width: 100%;
+}
+
+.home .da_input input[type="text"] {
+  border-radius: 0.4rem;
+  /* border: 1px solid #517a51; */
+  box-shadow: 0 2px 4px 0 #517a514f, 0 3px 10px 0 #517a514f;
+  height: 0.8rem;
+  background-color: #fff;
+}
+
+.home .da_input .ant-input-affix-wrapper {
+  font-size: .5rem;
+}
+
+.home .da_list,.da_search .da_list{
+  background: #f5f5f5 url(~@/assets/images/home_bg_02.png) no-repeat center top/100% auto;
+  padding: 0.2rem;
+}
+
+.home .da_list .dl_box,.da_search .da_list .dl_box{
+  width: 100%;
+  margin-bottom: 0.2rem;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.home .dl_text_box ,.da_search .da_list .dl_text_box{
+  padding: .2rem .3rem .2rem .3rem;
+}
+
+.home .dl_text_box h3,.da_search .da_list .dl_text_box h3{
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  padding: 0 !important;
+}
+
+.home .da_list .dl_box h3,.da_search .da_list .dl_box h3{
+  padding: 0 .2rem;
+  margin-bottom: .15rem;
+  /* line-height: .8rem; */
+  color: #333;
+}
+
+.home .da_list .dl_box p,.da_search .da_list .dl_box p{
+  color: rgb(122, 122, 122);
+  margin-top: .2rem;
+  padding-top: .2rem;
+  border-top: 1px solid rgb(238, 238, 238);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+ 
+.home .h_botton {
+  padding: 0.3rem 0.2rem;
+  text-align: center;
+}
+
+.home .h_botton .ant-col-6 {
+  margin-bottom: .3rem;
+}
+
+.home .h_botton .hb_img {
+  margin: 0 auto;
+  width: 1rem;
+  height: 1rem;
+}
+
+.home .h_botton .ant-col-6:nth-child(1n) .hb_img {
+  background: url(~@/assets/images/icon_01.png) no-repeat center center/contain;
+}
+
+.home .h_botton .ant-col-6:nth-child(2n) .hb_img {
+  background: url(~@/assets/images/icon_02.png) no-repeat center center/contain;
+}
+
+.home .h_botton .ant-col-6:nth-child(3n) .hb_img {
+  background: url(~@/assets/images/icon_03.png) no-repeat center center/contain;
+}
+
+.home .h_botton .ant-col-6:nth-child(4n) .hb_img {
+  background: url(~@/assets/images/icon_04.png) no-repeat center center/contain;
+}
+
+.home .h_botton .ant-col-6:nth-child(5n) .hb_img {
+  background: url(~@/assets/images/icon_05.png) no-repeat center center/contain;
+}
+
+.home .h_botton .ant-col-6:nth-child(6n) .hb_img {
+  background: url(~@/assets/images/icon_06.png) no-repeat center center/contain;
+}
+
+.home .h_botton .hb_img img {
+  width: 50%;
+}
+
+.home .h_botton .hb_title {
+  margin-top: .1rem;
+}
+
+.da_list .h_text {
+  float: left;
+  width: 75%;
+}
+
+.da_list .h_img {
+  width: 25%;
+  float: right;
+}
+
+.da_list .h_img img {
+  text-align: right;
+  width: 90%;
+  margin-top: 0.15rem;
+}
+
+.da_list .dl_title {
+  font-size: .32rem;
+  font-weight: bold;
+  line-height: 1rem;
+}
+
+/* 档案搜索结束 */
+
+/* 列表开始 */
+.da_search{
+  /* min-height: 100%;
+  background-color: #f5f5f5; */
+}
+.da_search .da_input {
+  width: 95%;
+  margin: .3rem auto;
+}
+
+.da_search .da_input .ant-space {
+  width: 100%;
+}
+
+.da_search .da_input input[type="text"] {
+  border-radius: 0.4rem;
+  border: 1px solid #517a51;
+  height: 0.8rem;
+  background-color: #fff;
+}
+
+.da_search .da_input .ant-input-affix-wrapper {
+  font-size: .5rem;
+}
+
+.da_search .da_img {
+  /* position: relative; */
+  font-weight: bold;
+  font-size: .4rem;
+  color: #fff;
+  text-shadow: 2px 2px 2px grey;
+  text-align: center;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  background: url(~@/assets/images/4s.jpg)no-repeat;
+  background-size: cover;
+}
+
+/* .da_img::before {
+  left: 0;
+  content: "";
+  position: absolute; 
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(15px); 
+} */
+
+/* 列表结束 */
+
+
+/* 我的开始 */
+.da_my .da_img {
+  height: 3rem;
+  background: url(~@/assets/images/my_bg_02.png)no-repeat;
+  background-size: 100%;
+}
+
+.da_my .da_img h2 {
+  text-align: center;
+  /* padding-top: 22%; */
+  color: #fff;
+  font-size: .4rem;
+  line-height: 3rem;
+}
+
+.da_my .my_list .my_box {
+  font-size: .35rem;
+  padding: .3rem;
+  margin: 0 .2rem;
+  /* border-bottom: 1px solid #5e0b0727; */
+
+}
+
+.da_my .my_list .my_box img {
+  width: .5rem;
+  margin-right: .24rem;
+}
+
+.da_my .my_integral {
+  background-color: #f3f5f9;
+  border-radius: .2rem;
+  margin: .3rem;
+}
+
+.da_my .my_integral p {
+  padding: 0.4rem .5rem;
+  font-weight: bold;
+  font-size: .34rem;
+}
+
+.da_my .my_integral p i {
+  color: #006fff;
+}
+
+.da_my .my_integral p b {
+  float: right;
+}
+
+/* 我的结束 */
+
+/* 文章开始 */
+.article {
+  min-height: 100%;
+  background-color: #f1f1f1;
+}
+
+.article .article_title, .article .article_content {
+  background-color: #fff;
+  padding: .3rem;
+  margin-bottom: .2rem;
+}
+
+.article .article_title h2 {
+  font-size: .36rem;
+  line-height: .8rem;
+  color: #000;
+  text-align: center;
+}
+
+.article .article_title h4 {
+  font-size: .26rem;
+  color: rgb(85, 85, 85);
+  text-align: center;
+}
+
+.article .article_content p {
+  text-indent: .5rem;
+  line-height: .6rem;
+}
+
+/* 文章结束 */
+
+/* 页脚开始 */
+.fm_padding {
+  padding-bottom: 1.6rem;
+}
+
+.footMenu {
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  background-color: #fff;
+  /* height: 1.6rem; */
+  width: 100%;
+  padding: .12rem 0;
+
+}
+
+.footMenu .fm_img {
+  padding-bottom: .1rem;
+}
+
+.footMenu .fm_img img {
+  width: .4rem;
+  height: .4rem;
+}
+
+.footMenu .fm_title {
+  font-size: .26rem;
+  color: #2e80fe;
+}
+
+/* 页脚结束 */
+/* 文章详情页脚开始 */
+.footCollect {
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  background-color: #fff;
+  height: 1rem;
+  width: 100%;
+  z-index: 999999999;
+}
+
+.footCollect .ant-col-12 {
+  height: 1.3rem;
+}
+
+.footCollect .ant-rate {
+  margin-top: .1rem;
+}
+
+.footCollect .ant-rate-star-second {
+  /* color: #fff; */
+}
+
+.footCollect .anticon svg {}
+
+.footCollect .download {
+  margin-top: .2rem;
+  font-size: 24px;
+}
+
+.footCollect .download svg {
+  color: #e8e8e8;
+}
+
+/* 文章详情页脚结束 */
